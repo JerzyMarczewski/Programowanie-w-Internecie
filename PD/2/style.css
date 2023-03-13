@@ -1,0 +1,30 @@
+html {
+  min-height: 100vh;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  padding: 40px;
+
+  max-width: 600px;
+  border: 1px solid pink;
+  border-radius: 30px;
+
+  background-color: azure;
+}
+
+h1 {
+  color: pink;
+  font-size: 60px;
+}
